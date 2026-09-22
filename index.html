@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Li Deng — Ottawa software developer building reliable web applications, cloud services, and automated quality workflows.">
+  <title>Li Deng — Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="project-cards.css">
+</head>
+
+<body>
+  <header class="site-header"><a class="brand" href="#overview"><span
+        class="avatar-mark">LD</span><span><b>Li</b><small>/software-developer</small></span></a><button class="menu"
+      aria-expanded="false" aria-controls="primary-nav">Menu</button>
+    <nav id="primary-nav" aria-label="Primary navigation">
+      <a class="active" href="#overview">Overview</a><a href="#works">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="resume-link" href="assets/resume.pdf" download>↓ Resume</a>
+  </header>
+  <main>
+    <section class="hero section" id="overview">
+      <div>
+        <p class="availability"><span></span>Open to software development opportunities</p>
+        <h1>Hi, I’m Li — I build reliable web applications and cloud services.</h1>
+        <p class="lead">I’m an Ottawa-based software developer with four years of web development experience, including
+          more than two years building and testing production software at D2L and SkillsWave. I work across JavaScript
+          applications, Node.js APIs, AWS infrastructure, automated testing, and CI/CD.</p>
+        <div class="actions"><a class="button primary" href="mailto:lideng928@gmail.com">Get in touch →</a><a
+            class="button secondary" href="https://github.com/lideng928" target="_blank" rel="noreferrer">GitHub</a><a
+            class="button secondary" href="https://linkedin.com/in/lideng928" target="_blank"
+            rel="noreferrer">LinkedIn</a></div>
+      </div>
+      <div class="portrait-wrap">
+        <div class="image-placeholder portrait-placeholder">
+          <img class="portrait" src="assets/portrait-01.jpg" alt="Li Deng portrait">
+        </div>
+        <span class="craft">✦ Development &amp; Quality</span>
+      </div>
+    </section>
+    <section class="stack section">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Technical toolkit</p>
+          <h2>Full Lifecycle Development</h2>
+        </div>
+        <p>Building robust applications across the full lifecycle: architecting features, automating test pipelines,
+          deploying to the cloud, and ensuring production reliability.</p>
+      </div>
+      <ul class="pills">
+        <li>JavaScript</li>
+        <li>TypeScript</li>
+        <li>Node.js / Koa</li>
+        <li>LitElement</li>
+        <li>React</li>
+        <li>AWS</li>
+        <li>DynamoDB</li>
+        <li>Terraform</li>
+        <li>GitHub Actions</li>
+        <li>Playwright</li>
+        <li>Mocha / Chai</li>
+        <li>Axe</li>
+      </ul>
+    </section>
+    <section class="works section" id="works">
+      <p class="eyebrow">Featured work</p>
+      <h2>Project Highlights</h2>
+      <p class="subhead">Building scalable web applications, robust cloud environments, and reliable pipelines.</p>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-card-top"><span class="project-icon" aria-hidden="true">01</span><span class="company">D2L
+              Wave</span></div>
+          <p class="project-kicker">Access control · Product engineering</p>
+          <h3>Role-Based Access Control</h3>
+          <p>Designed a DynamoDB data layer for administrative roles and permissions, then integrated permission checks
+            into the admin frontend to restrict actions across more than 50 permission levels.</p>
+          <div class="project-impact"><b>Contribution</b><span>Data modelling, frontend enforcement, and
+              permission-combination verification.</span></div>
+          <div class="tags"><span>DynamoDB</span><span>JavaScript</span><span>LitElement</span><span>RBAC</span></div>
+          <footer><span class="status">● Production feature</span></footer>
+        </article>
+        <article class="project-card">
+          <div class="project-card-top"><span class="project-icon" aria-hidden="true">02</span><span
+              class="company">SkillsWave</span></div>
+          <p class="project-kicker">Cloud infrastructure · Migration</p>
+          <h3>Directus Platform</h3>
+          <p>Provisioned a self-hosted Directus environment on AWS and contributed migration tooling that matched image
+            assets to records.</p>
+          <div class="project-impact"><b>Problem solved</b><span>Diagnosed and corrected a data-integrity defect that
+              assigned one image to two fields.</span></div>
+          <div class="tags"><span>Terraform</span><span>ECS/Fargate</span><span>RDS</span><span>VPC</span></div>
+          <footer><span class="status">● ~30% lower non-prod cost</span></footer>
+        </article>
+        <article class="project-card">
+          <div class="project-card-top"><span class="project-icon" aria-hidden="true">03</span><span
+              class="company">AWS</span></div>
+          <p class="project-kicker">Automation · Secure integration</p>
+          <h3>Automated Partner Data Delivery</h3>
+          <p>Built a permission-scoped SFTP solution and automated provider reporting with scheduled CSV generation and
+            dedicated S3 destinations.</p>
+          <div class="project-impact"><b>Reliability</b><span>Added polling, retry, and exponential backoff to make
+              delivery resilient.</span></div>
+          <div class="tags"><span>Node.js</span><span>Transfer
+              Family</span><span>S3</span><span>IAM</span><span>EventBridge</span></div>
+          <footer><span class="status">● Automated workflow</span></footer>
+        </article>
+      </div>
+    </section>
+    <section class="experience section" id="experience">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Career</p>
+          <h2>Experience</h2>
+        </div>
+        <p>Four years creating accessible web experiences, production software, cloud infrastructure, and automated
+          quality checks.</p>
+      </div>
+      <div class="timeline">
+        <article><span class="node"></span>
+          <div class="role-head">
+            <h3>Software Developer II · SkillsWave</h3><time>Jul 2024 — Jun 2026</time>
+          </div>
+          <p>Built and maintained production web features, AWS services, infrastructure, test automation, and
+            operational workflows.</p>
+          <ul>
+            <li>Cut first-load network calls by 50% and improved first contentful paint by two seconds by removing
+              redundant API calls and deferring non-critical requests.</li>
+            <li>Built backend unit and integration tests and contributed visual regression, accessibility, smoke, and
+              Playwright end-to-end testing.</li>
+            <li>Created a GitHub Actions pipeline that refreshed the test CMS weekly with production data, replacing
+              manual test-data setup.</li>
+            <li>Investigated incidents with CloudWatch, Sentry, and browser tooling and shipped time-sensitive fixes
+              through peer-reviewed pull requests.</li>
+          </ul>
+        </article>
+        <article><span class="node"></span>
+          <div class="role-head">
+            <h3>Software Developer · D2L Wave</h3><time>Mar 2024 — Jul 2024</time>
+          </div>
+          <p>Contributed to feature delivery, debugging, testing, and code review on the Wave workforce learning
+            platform.</p>
+          <ul>
+            <li>Designed and built the RBAC data layer and integrated granular permission enforcement into the admin
+              frontend.</li>
+            <li>Transitioned with the Wave team when D2L launched SkillsWave, maintaining continuity of platform
+              development.</li>
+          </ul>
+        </article>
+        <article><span class="node"></span>
+          <div class="role-head">
+            <h3>Courseware Developer · D2L Learning Services</h3><time>Mar 2022 — Mar 2024</time>
+          </div>
+          <p>Translated client and stakeholder requirements into accessible interactive learning experiences.</p>
+          <ul>
+            <li>Delivered more than 30 enterprise course projects in JavaScript, HTML, and CSS on tight timelines.</li>
+            <li>Built to WCAG accessibility standards and supported ongoing maintenance and enhancements across client
+              accounts.</li>
+          </ul>
+        </article>
+      </div>
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Background</p>
+          <h2>Education</h2>
+        </div>
+      </div>
+      <aside class="education"><span class="edu-icon"><img src="assets/graduation-cap-solid-full.svg" alt=""
+            width="20"></span>
+        <div>
+          <h3>Computer Applications Development</h3>
+          <p>Post-Graduate Certificate · Conestoga College · Graduated with Distinction</p>
+        </div><span class="cert">Sep 2020 — Sep 2021</span>
+      </aside>
+    </section>
+    <!-- <section class="testimonial section">
+      <figure>
+        <p class="eyebrow">How I work</p>
+        <blockquote>“I combine hands-on development with strong testing habits—building maintainable features, reviewing
+          code carefully, automating repeatable workflows, and investigating production issues through to resolution.”
+        </blockquote>
+        <figcaption><span>LD</span>
+          <div><b>Developer with a quality mindset</b><small>Full SDLC · Cross-functional collaboration · Technical
+              documentation</small></div>
+        </figcaption>
+      </figure>
+    </section> -->
+    <section class="contact section" id="contact">
+      <div>
+        <p class="eyebrow">Start a conversation</p>
+        <h2>Let’s build reliable, useful software together.</h2>
+        <p class="lead">I’m based in Ottawa and interested in software development opportunities where I can contribute
+          across product engineering, cloud infrastructure, automated testing, and continuous delivery.</p>
+        <div class="actions"><a class="button primary" href="mailto:lideng928@gmail.com">✉ Email Li</a><a
+            class="button secondary" href="https://linkedin.com/in/lideng928" target="_blank"
+            rel="noreferrer">LinkedIn</a><a class="button secondary" href="https://github.com/lideng928" target="_blank"
+            rel="noreferrer">GitHub</a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div><b>Li Deng</b>
+      <p>© <span id="year">2026</span> Built with care and a focus on quality.</p>
+    </div>
+    <nav><a href="#works">Projects</a><a href="https://github.com/lideng928">GitHub</a><a
+        href="https://linkedin.com/in/lideng928">LinkedIn</a><a href="#contact">Contact</a></nav>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
