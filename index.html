@@ -14,6 +14,7 @@
     rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="project-cards.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
 </head>
 
 <body>
@@ -32,9 +33,9 @@
       <div>
         <p class="availability"><span></span>Open to software development opportunities</p>
         <h1>Hi, I’m Li — I build reliable web applications and cloud services.</h1>
-        <p class="lead">I’m an Ottawa-based software developer with four years of web development experience, including
-          more than two years building and testing production software at D2L and SkillsWave. I work across JavaScript
-          applications, Node.js APIs, AWS infrastructure, automated testing, and CI/CD.</p>
+        <p class="lead">I’m an Ottawa-based software developer with 4 years of web development experience—including over
+          2 years building and testing production software at D2L and SkillWave. I specialize in JavaScript apps,
+          Node.js APIs, AWS infrastructure, automated testing, and CI/CD pipelines.</p>
         <div class="actions"><a class="button primary" href="mailto:lideng928@gmail.com">Get in touch →</a><a
             class="button secondary" href="https://github.com/lideng928" target="_blank" rel="noreferrer">GitHub</a><a
             class="button secondary" href="https://linkedin.com/in/lideng928" target="_blank"
@@ -53,8 +54,7 @@
           <p class="eyebrow">Technical toolkit</p>
           <h2>Full Lifecycle Development</h2>
         </div>
-        <p>Building robust applications across the full lifecycle: architecting features, automating test pipelines,
-          deploying to the cloud, and ensuring production reliability.</p>
+        <p>Building robust applications across the full lifecycle: requirements gathering, architecting features, automating test pipelines, deploying to the cloud, and ensuring production reliability.</p>
       </div>
       <ul class="pills">
         <li>JavaScript</li>
@@ -62,13 +62,12 @@
         <li>Node.js / Koa</li>
         <li>LitElement</li>
         <li>React</li>
-        <li>AWS</li>
-        <li>DynamoDB</li>
+        <li>AWS (Amazon Web Services)</li>
         <li>Terraform</li>
         <li>GitHub Actions</li>
         <li>Playwright</li>
         <li>Mocha / Chai</li>
-        <li>Axe</li>
+        <li>Web Accessibility</li>
       </ul>
     </section>
     <section class="works section" id="works">
@@ -93,26 +92,46 @@
               class="company">SkillsWave</span></div>
           <p class="project-kicker">Cloud infrastructure · Migration</p>
           <h3>Directus Platform</h3>
-          <p>Provisioned a self-hosted Directus environment on AWS and contributed migration tooling that matched image
-            assets to records.</p>
+          <p>Provisioned a self-hosted Directus environment on AWS using Terraform and contributed migration tooling
+            that matched vendor
+            data to records using custom scripting.</p>
           <div class="project-impact"><b>Problem solved</b><span>Diagnosed and corrected a data-integrity defect that
               assigned one image to two fields.</span></div>
           <div class="tags"><span>Terraform</span><span>ECS/Fargate</span><span>RDS</span><span>VPC</span></div>
           <footer><span class="status">● ~30% lower non-prod cost</span></footer>
         </article>
         <article class="project-card">
-          <div class="project-card-top"><span class="project-icon" aria-hidden="true">03</span><span
-              class="company">AWS</span></div>
-          <p class="project-kicker">Automation · Secure integration</p>
-          <h3>Automated Partner Data Delivery</h3>
-          <p>Built a permission-scoped SFTP solution and automated provider reporting with scheduled CSV generation and
-            dedicated S3 destinations.</p>
-          <div class="project-impact"><b>Reliability</b><span>Added polling, retry, and exponential backoff to make
-              delivery resilient.</span></div>
-          <div class="tags"><span>Node.js</span><span>Transfer
-              Family</span><span>S3</span><span>IAM</span><span>EventBridge</span></div>
-          <footer><span class="status">● Automated workflow</span></footer>
-        </article>
+          <div class="project-card-top">
+            <span class="project-number" aria-hidden="true">03</span>
+            <span class="project-company">SkillsWave</span>
+          </div>
+
+          <p class="project-category">
+            Frontend · Performance optimization
+          </p>
+
+          <h3>Faster Application Loading</h3>
+
+          <p class="project-description">
+            Improved the application's initial loading experience by removing
+            redundant API calls, deferring non-critical requests, and consolidating
+            separate frontend components into a reusable component.
+          </p>
+
+          <div class="project-impact">
+            <strong>Result</strong>
+            <span>
+              Reduced initial network calls by 50% and improved first contentful
+              paint by two seconds.
+            </span>
+          </div>
+
+          <div class="project-tags" aria-label="Technologies used">
+            <span>JavaScript</span>
+            <span>LitElement</span>
+            <span>Web Components</span>
+            <span>REST APIs</span>
+          </div>
       </div>
     </section>
     <section class="experience section" id="experience">
@@ -161,7 +180,7 @@
           </div>
           <p>Translated client and stakeholder requirements into accessible interactive learning experiences.</p>
           <ul>
-            <li>Delivered more than 30 enterprise course projects in JavaScript, HTML, and CSS on tight timelines.</li>
+            <li>Delivered more than 30 course projects in JavaScript, HTML, and CSS on tight timelines.</li>
             <li>Built to WCAG accessibility standards and supported ongoing maintenance and enhancements across client
               accounts.</li>
           </ul>
@@ -181,18 +200,6 @@
         </div><span class="cert">Sep 2020 — Sep 2021</span>
       </aside>
     </section>
-    <!-- <section class="testimonial section">
-      <figure>
-        <p class="eyebrow">How I work</p>
-        <blockquote>“I combine hands-on development with strong testing habits—building maintainable features, reviewing
-          code carefully, automating repeatable workflows, and investigating production issues through to resolution.”
-        </blockquote>
-        <figcaption><span>LD</span>
-          <div><b>Developer with a quality mindset</b><small>Full SDLC · Cross-functional collaboration · Technical
-              documentation</small></div>
-        </figcaption>
-      </figure>
-    </section> -->
     <section class="contact section" id="contact">
       <div>
         <p class="eyebrow">Start a conversation</p>
