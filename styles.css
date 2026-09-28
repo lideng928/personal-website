@@ -688,7 +688,7 @@ h3 {
   /* display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 40px; */
-  border: 1px solid var(--line);
+  border: 1px solid var(--rust2);
   border-radius: 12px;
 }
 .colophon {
